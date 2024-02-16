@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#d1d1d1;
+}
+
+.main{
+  width: 400px;
+  height: 500px;
+  border: 2px solid black;
+  background-color:#fff;
+  margin: auto;
+  margin-top:5%;
+  border-radius: 15px;
+  text-align: center;
+}
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h1{
+    margin-top: 5px;
+}
+input{
+    display: none;
+}
+label{
+    display: block;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: red;
+    margin-left:22%;
+    margin-top: 25px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="text">
+            <H1>Change Your Profile Pic</H1>
+            <img src="./upload-photo/images/profile.png" alt="" id="default">
+            <label for="input-file">Update Image</label>
+             <input type="file" name="" id="input-file" accept="image/jpeg,image/png,image/jpg">    
+        </div>
+    </div>
+
+    <script>
+        let profilepic = document.getElementById("default");
+        let inputfile = document.getElementById("input-file");
+
+        inputfile.onchange = function(){
+            profilepic.src = URL.createObjectURL(inputfile.files[0]);
+            alert("Khubsurat hai Aaap💕")
+        }
+    </script>
+</body>
+</html>
